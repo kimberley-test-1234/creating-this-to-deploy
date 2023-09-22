@@ -1,0 +1,7 @@
+config:
+  azure-native:location: WestUS
+  container-azure-go:appPath: app
+  container-azure-go:containerPort: "80"
+  container-azure-go:cpu: "1"
+  container-azure-go:memory: "2"
+  pulumi:template: container-azure-go
